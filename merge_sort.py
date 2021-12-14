@@ -1,5 +1,5 @@
 def merge_sort(list):
-    if len(list) <= 1:
+    if len(list) == 1:
         return list
 
     left_half, right_half = split(list)
