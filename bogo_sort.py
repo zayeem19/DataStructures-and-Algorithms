@@ -1,4 +1,3 @@
-import sys
 import random
 
 def is_sorted(list):
@@ -13,4 +12,6 @@ def bogo_sort(list):
 	return list
 
 
-print(bogo_sort([2,5,1,9,6]))
+numbers = input('>')
+result = bogo_sort(numbers)
+print(result)

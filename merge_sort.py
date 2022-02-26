@@ -7,7 +7,7 @@ def merge_sort(list):
     right = merge_sort(right_half)
     return merge(left, right)
 
-def split(left, right):
+def split(list):
     mid = len(list)//2
     left = list[:mid]
     right = list[mid:] 
