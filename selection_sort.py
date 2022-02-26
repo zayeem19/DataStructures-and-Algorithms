@@ -12,4 +12,6 @@ def index_min(list):
 			min_index = i
 	return min_index
 
-print(selection_sort([5,7,3,2,8,6]))
+numbers = input('>')
+result = quick_sort(numbers)
+print(result)
